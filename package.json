@@ -1,0 +1,25 @@
+{
+  "name": "healthprofile",
+  "version": "1.0.0",
+  "description": "This application creates a database with patients health profile so that doctor and diagnosis lab will be read, upload, and update patient's data. The patients will be to see their health profile also.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/farjanaHuq/HealthProfile.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/farjanaHuq/HealthProfile/issues"
+  },
+  "homepage": "https://github.com/farjanaHuq/HealthProfile#readme",
+  "dependencies": {
+    "ejs": "^3.1.2",
+    "morgan": "^1.10.0",
+    "view": "^1.1.1"
+  }
+}
